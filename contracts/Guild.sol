@@ -9,7 +9,7 @@ contract Guild {
 
     string private name;
     address[] private members;
-    OnboardingBounty[] private activeBounties;
+    OnboardingBounty[] private bounties;
 
     constructor(string memory _name, address[] memory _initialMembers) {
         console.log("Creating new guild ", _name);
@@ -22,6 +22,6 @@ contract Guild {
 
     function publishBounty(string memory _ipfsDescription) public {
         // Todo: Add deadline (?)
-        activeBounties.push(new OnboardingBounty(_ipfsDescription));
+        bounties.push(new OnboardingBounty(_ipfsDescription));
     }
 }
