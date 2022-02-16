@@ -25,6 +25,7 @@ What we have
 - Social media influence
   - @CityDAO Twitter handle
 - Traditional IT infrastructure
+  - Website (https://citydao.io)
   - Forum (https://forum.citydao.io/)
   - Discord
   - Notion 
