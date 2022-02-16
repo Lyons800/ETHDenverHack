@@ -21,6 +21,8 @@ contract Organization {
         // Todo: implement graceful organization shutdown in case no members are left
     }
 
+    // Todo: Provide interface to onboard new members according to internal decision making processes
+
     function isMember(address account) public view returns (bool) {
         return members[account];
     }
