@@ -21,10 +21,27 @@ contract Mission {
         require(origin.isMember(msg.sender));
     }
 
+    uint256 public missalignmentCount;
     mapping(address => MissalignmentVote) explicitMissalignmentVotes;
 
     function expressMissalignment(MissalignmentVote vote) public onlyOrganizationMember {
+        if (vote.reasonIpfs == "") {
+            revert();
+        }
+
+        if (explicitMissalignmentVotes[msg.sender].reasonIpfs == "") {
+            missalignmentCount += 1;
+        }
+        
         explicitMissalignmentVotes[msg.sender] = vote;
+    }
+
+    function revokeMissalignment() public onlyOrganizationMember {
+        if (explicitMissalignmentVotes[msg.sender].reasonIpfs != "") {
+            missalignmentCount -= 1;
+        }
+        
+        explicitMissalignmentVotes[msg.sender] = MissalignmentVote("");
     }
 
     struct MissalignmentVote {
