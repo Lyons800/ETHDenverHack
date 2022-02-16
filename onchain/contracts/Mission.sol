@@ -23,7 +23,7 @@ contract Mission {
 
     mapping(address => MissalignmentVote) explicitMissalignmentVotes;
 
-    function submitVeto(MissalignmentVote vote) public onlyOrganizationMember {
+    function expressMissalignment(MissalignmentVote vote) public onlyOrganizationMember {
         explicitMissalignmentVotes[msg.sender] = vote;
     }
 
