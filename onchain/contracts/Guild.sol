@@ -7,8 +7,6 @@ import "./GuildMembership.sol";
 import "./Vote.sol";
 
 contract Guild {
-    // Todo: Implement IERC721 or create separate role NFT contract
-
     string private name;
     GuildMembership private membershipToken;
     OnboardingBounty[] private bounties;
