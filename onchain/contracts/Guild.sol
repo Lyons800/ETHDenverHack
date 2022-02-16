@@ -12,7 +12,6 @@ contract Guild {
     string private name;
     GuildMembership private membershipToken;
     OnboardingBounty[] private bounties;
-    Vote[] private votes;
 
     constructor(string memory _name, address[] memory _initialMembers) {
         console.log("Creating new guild ", _name);
@@ -28,13 +27,13 @@ contract Guild {
         return name;
     }
 
-    function publishBounty(string memory _ipfsDescription) public {
+    function publishBounty(string memory _ipfsDescription) public onlyMember {
+
         // Todo: Add deadline (?)
         bounties.push(new OnboardingBounty(_ipfsDescription));
     }
 
-    function publishVote(string memory _ipfsDescription) public {
-        // Todo: Add deadline (?)
-        votes.push(new Vote(_ipfsDescription));
-    }
+    modifier onlyMember {
+        require(membershipToken.balanceOf(msg.sender) > 0);
+   }
 }
