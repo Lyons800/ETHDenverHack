@@ -15,7 +15,7 @@ contract Organization {
     }
 
     function leave() public onlyMember {
-        members[account] = false;
+        members[msg.sender] = false;
         memberCount -= 1;
 
         // Todo: implement graceful organization shutdown in case no members are left
@@ -23,11 +23,18 @@ contract Organization {
 
     // Todo: Provide interface to onboard new members according to internal decision making processes
 
-    function isMember(address account) public view returns (bool) {
-        return members[account];
+    function isMember(address _account) public view returns (bool) {
+        return members[_account];
     }
 
     modifier onlyMember {
         require(isMember(msg.sender));
+    }
+
+    // All missions that ever got proposed
+    Mission[] public missions;
+
+    function proposeMission(string memory _missionStatementIpfs) public onlyMember {
+        missions.push(new Mission(_missionStatementIpfs));
     }
 }
