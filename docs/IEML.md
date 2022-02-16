@@ -6,9 +6,9 @@ Missions statements have meaning. Votes have reasons. Desires are conceptual. Al
 
 - [IEML elements](https://intlekt.io/elements/)
 - [IEML competencies](https://intlekt.io/competencies/)
-- https://iemldev.github.io/ieml-dictionary/
-- https://dictionary.ieml.io/
-- https://github.com/IEMLdev
+- [IEML dictionary](https://iemldev.github.io/ieml-dictionary/)
+- [IEML dictionary editor](https://dictionary.ieml.io/)
+- [IEML GitHub](https://github.com/IEMLdev)
 
 ## Interesting IEML paradigms
 
@@ -19,3 +19,5 @@ Missions statements have meaning. Votes have reasons. Desires are conceptual. Al
   - [being | related skills](https://dev.intlekt.io/usl/B%3AM%3A.e.-M%3AM%3A.a.-wa.e.-')
   - [thing | related skills](https://dev.intlekt.io/usl/T%3AM%3A.e.-M%3AM%3A.i.-wa.e.-')
 - [knowledge, humanities, social sciences and their objects](https://dev.intlekt.io/usl/M:F:.-we.-s.y.-%27+M:M:.-O:M:.+M:O:.-E:.-+s.y.-')
+- [determinants of human development](https://dev.intlekt.io/usl/O:M:.M:M:.-+M:M:.O:M:.-)
+- [logic](https://iemldev.github.io/ieml-dictionary/scripts/E_O_O_..html)
