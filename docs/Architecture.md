@@ -1,5 +1,7 @@
 # Governance Architecture
 
+Conflicts and divergent interests are settled through negotiation, while agreements and promises are managed contractually.
+
 Missions are statements of desires. _What_ members want to archive and strive for. Proposing a new mission is an expression of oppinion that there might be some interesting stuff to make happen.
 
 Two things that needs to get voted on:

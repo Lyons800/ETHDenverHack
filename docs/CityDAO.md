@@ -22,13 +22,18 @@ What we have
 - Genosis Safe treasury
 - Real estate
   - Parcel0
-- Social media influence
-  - @CityDAO Twitter handle
+- Objects
+  - Drones
+  - Sensors
+- Services
+  - AirBNB's (as consumer)
 - Traditional IT infrastructure
   - Website (https://citydao.io)
   - Forum (https://forum.citydao.io/)
   - Discord
-  - Notion 
+  - Notion
+- Social media influence
+  - @CityDAO Twitter handle
 
 ## Guilds
 
