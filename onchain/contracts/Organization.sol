@@ -14,7 +14,7 @@ contract Organization {
         memberCount = 1;
     }
 
-    function leave() public {
+    function leave() public onlyMember {
         members[account] = false;
         memberCount -= 1;
 
