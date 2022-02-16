@@ -21,7 +21,7 @@ contract Mission {
         require(origin.isMember(msg.sender));
     }
 
-    mapping(address => VetoVote) explicitMissalignmentVotes;
+    mapping(address => MissalignmentVote) explicitMissalignmentVotes;
 
     function submitVeto(MissalignmentVote vote) public onlyOrganizationMember {
         explicitMissalignmentVotes[msg.sender] = vote;
