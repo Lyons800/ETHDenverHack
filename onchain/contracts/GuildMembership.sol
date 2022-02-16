@@ -8,7 +8,7 @@ contract GuildMembership is ERC721Full {
     using Counters for Counters.Counter;
     Counters.Counter private _membershipIds;
 
-    constructor(Guild guild) ERC721Full(guild.getName(), "GLD") public {
+    constructor(Guild guild) ERC721Full(guild.name, "GLD") public {
     }
 
     function awardMembership(address member) public returns (uint256) {

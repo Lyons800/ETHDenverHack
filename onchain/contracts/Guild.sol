@@ -7,7 +7,7 @@ import "./GuildMembership.sol";
 import "./Vote.sol";
 
 contract Guild {
-    string private name;
+    string public name;
     GuildMembership private membershipToken;
     OnboardingBounty[] private bounties;
     Vote[] private votes;
@@ -20,10 +20,6 @@ contract Guild {
         for(int i = 0; i < _initialMembers.length; i++) {
             membershipToken.awardMembership(_initialMembers[i]);
         }
-    }
-
-    function getName() public view returns (string memory) {
-        return name;
     }
 
     function isMember(address account) public view returns (bool) {
