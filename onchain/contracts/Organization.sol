@@ -6,6 +6,7 @@ import "./OnboardingBounty.sol";
 import "./Guild.sol";
 
 contract Organization {
+    // Todo: Generalize membership determination into ERC721 compatible token to allow customized behavor
     uint256 public memberCount;
     mapping (address => bool) public members;
 

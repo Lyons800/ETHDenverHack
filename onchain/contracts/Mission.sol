@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "hardhat/console.sol";
 import "./Organization.sol";
 
-// 
 contract Mission {
     address private proposer;
     string private missionStatementIpfs;
@@ -16,5 +15,19 @@ contract Mission {
         proposer = msg.sender;
         missionStatementIpfs = _missionStatementIpfs;
         origin = _origin;
+    }
+
+    modifier onlyOrganizationMember {
+        require(origin.isMember(msg.sender));
+    }
+
+    mapping(address => VetoVote) explicitMissalignmentVotes;
+
+    function submitVeto(MissalignmentVote vote) public onlyOrganizationMember {
+        explicitMissalignmentVotes[msg.sender] = vote;
+    }
+
+    struct MissalignmentVote {
+        string reasonIpfs;
     }
 }
