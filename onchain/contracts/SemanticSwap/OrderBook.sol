@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
+import "./Order.sol";
 
 contract OrderBook {
     // Descriptions of what can possibly be done, according to the participant who submitted the order
