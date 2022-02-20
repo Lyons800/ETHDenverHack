@@ -5,5 +5,5 @@ import "./Order.sol";
 
 struct MatchLink {
     Order producer;
-    Order receiver;
+    Order consumer;
 }

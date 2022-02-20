@@ -13,4 +13,13 @@ contract SemanticSwap {
     OrderBook public orderBook;
     MatchProposal[] public matchProposals;
 
+    function proposeMatch(string calldata reason, MatchLink[] calldata matchLinks) public {
+        MatchProposal prop = new MatchProposal(reason);
+        
+        for (uint256 i = 0; i < matchLinks.length; i++) {
+            prop.AddLink(matchLinks[i].producer, matchLinks[i].consumer);
+        }
+        
+        matchProposals.push(prop);
+    }
 }

@@ -15,12 +15,10 @@ contract OrderBook {
     // B               (  T                  )
 
     function submitOffer(string memory _statement) public {
-        openOffers.push(Order(msg.sender, ""));
-        openOffers[openOffers.length - 1].statement = _statement;
+        openOffers.push(new Order(msg.sender, _statement));
     }
     
     function submitAsk(string memory _statement) public {
-        openAsks.push(Order(msg.sender, ""));
-        openAsks[openOffers.length - 1].statement = _statement;
+        openAsks.push(new Order(msg.sender, _statement));
     }
 }
