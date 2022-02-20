@@ -1,7 +1,6 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
 import "./Organization.sol";
 
 contract Mission {
@@ -19,17 +18,18 @@ contract Mission {
 
     modifier onlyOrganizationMember {
         require(origin.isMember(msg.sender));
+        _;
     }
 
     uint256 public missalignmentCount;
     mapping(address => MissalignmentVote) explicitMissalignmentVotes;
 
-    function expressMissalignment(MissalignmentVote vote) public onlyOrganizationMember {
-        if (vote.reasonIpfs == "") {
+    function expressMissalignment(MissalignmentVote calldata vote) public onlyOrganizationMember {
+        if (keccak256(abi.encodePacked(vote.reasonIpfs)) == keccak256(abi.encodePacked(""))) {
             revert();
         }
 
-        if (explicitMissalignmentVotes[msg.sender].reasonIpfs == "") {
+        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reasonIpfs)) == keccak256(abi.encodePacked(""))) {
             missalignmentCount += 1;
         }
         
@@ -37,7 +37,7 @@ contract Mission {
     }
 
     function revokeMissalignment() public onlyOrganizationMember {
-        if (explicitMissalignmentVotes[msg.sender].reasonIpfs != "") {
+        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reasonIpfs)) == keccak256(abi.encodePacked(""))) {
             missalignmentCount -= 1;
         }
         

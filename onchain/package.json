@@ -1,5 +1,5 @@
 {
-  "name": "citydao",
+  "name": "dezentralized-autonomous-intelligence",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "@nomiclabs/hardhat-waffle": "^2.0.0",
     "@openzeppelin/contracts": "^4.5.0",
     "chai": "^4.2.0",
-    "ethers": "^5.0.0",
+    "ethers": "^5.5.4",
     "hardhat": "^2.8.4"
   },
   "dependencies": {

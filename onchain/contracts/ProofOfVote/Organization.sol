@@ -3,14 +3,15 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 import "./OnboardingBounty.sol";
-import "./Guild.sol";
+import "./Mission.sol";
 
 contract Organization {
-    // Todo: Generalize membership determination into ERC721 compatible token to allow customized behavor
+    string public name;
     uint256 public memberCount;
     mapping (address => bool) public members;
 
-    constructor(string memory name) {
+    constructor(string memory _name) {
+        name = _name;
         members[msg.sender] = true;
         memberCount = 1;
     }
@@ -30,12 +31,13 @@ contract Organization {
 
     modifier onlyMember {
         require(isMember(msg.sender));
+        _;
     }
 
     // All missions that ever got proposed
     Mission[] public missions;
 
     function proposeMission(string memory _missionStatementIpfs) public onlyMember {
-        missions.push(new Mission(_missionStatementIpfs));
+        missions.push(new Mission(this, _missionStatementIpfs));
     }
 }

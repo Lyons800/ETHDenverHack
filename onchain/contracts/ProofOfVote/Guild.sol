@@ -14,10 +14,10 @@ contract Guild {
 
     constructor(string memory _name, address[] memory _initialMembers) {
         console.log("Creating new guild ", _name);
-        membershipToken = new GuildMembership(this);
+        membershipToken = new GuildMembership(_name);
 
         // award initial memberships
-        for(int i = 0; i < _initialMembers.length; i++) {
+        for(uint256 i = 0; i < _initialMembers.length; i++) {
             membershipToken.awardMembership(_initialMembers[i]);
         }
     }
@@ -34,10 +34,11 @@ contract Guild {
 
     function publishVote(string memory _ipfsDescription) public onlyMember {
         // Todo: Add deadline (?)
-        votes.push(new Vote(_ipfsDescription));
+        votes.push(new Vote(this, _ipfsDescription));
     }
 
     modifier onlyMember {
         require(isMember(msg.sender));
-   }
+        _;
+    }
 }

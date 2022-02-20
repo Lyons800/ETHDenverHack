@@ -6,7 +6,7 @@ import "./Order.sol";
 contract MatchProposal {
     string public reason;
     MatchLink[] public matchingPairs;
-    DeltaPayment[] public deltaPayments;
+    //DeltaPayment[] public deltaPayments;
 }
 
 contract MatchLink {

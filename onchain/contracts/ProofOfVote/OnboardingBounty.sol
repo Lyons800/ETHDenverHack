@@ -21,7 +21,7 @@ contract OnboardingBounty {
         submissions[_submitter] = Submission(_gitHash);
     }
 
-    function complete(address[] winners) public {
+    function complete(address[] calldata winners) public {
         // Todo: Payout bounty
     }
 
