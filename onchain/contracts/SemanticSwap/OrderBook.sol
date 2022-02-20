@@ -14,14 +14,14 @@ contract OrderBook {
     // I am hungry for something with chicken
     // B               (  T                  )
 
-    function submitOffer(string memory _statement) public {
-        Order order = new Order(msg.sender, _statement);
+    function submitOffer(string memory _statement, IMatchListener _matchListener) public {
+        Order order = new Order(msg.sender, _statement, _matchListener);
         openOffers.push(order);
         emit OfferSubmitted(order.participant(), order.statement(), order);
     }
     
-    function submitAsk(string memory _statement) public {
-        Order order = new Order(msg.sender, _statement);
+    function submitAsk(string memory _statement, IMatchListener _matchListener) public {
+        Order order = new Order(msg.sender, _statement, _matchListener);
         openAsks.push(order);
         emit AskSubmitted(order.participant(), order.statement(), order);
     }

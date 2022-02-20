@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./OrderBook.sol";
+import "./Order.sol";
 import "./MatchProposal.sol";
 import "./MatchLink.sol";
 
@@ -18,12 +19,24 @@ contract SemanticSwap {
         MatchProposal prop = new MatchProposal(reason);
         
         for (uint256 i = 0; i < matchLinks.length; i++) {
-            matchProposalParticipation[matchLinks[i].producer.participant()].push(prop);
-            matchProposalParticipation[matchLinks[i].consumer.participant()].push(prop);
-            prop.AddLink(matchLinks[i].producer, matchLinks[i].consumer);
+            Order producer = matchLinks[i].producer;
+            Order consumer = matchLinks[i].consumer;
+
+            matchProposalParticipation[producer.participant()].push(prop);
+            matchProposalParticipation[consumer.participant()].push(prop);
+
+            prop.AddLink(producer, consumer);
         }
         
         matchProposals.push(prop);
+        
+        for (uint256 i = 0; i < matchLinks.length; i++) {
+            Order producer = matchLinks[i].producer;
+            Order consumer = matchLinks[i].consumer;
+
+            producer.matchListener().OnMatch(prop, producer);
+            consumer.matchListener().OnMatch(prop, consumer);
+        }
     }
 
     function listMatchProposals(address user) public view returns(MatchProposal[] memory proposals) {
