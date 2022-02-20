@@ -12,7 +12,7 @@ contract SemanticSwap {
     OrderBook public orderBook;
     MatchProposal[] public matchProposals;
 
-    function proposeMatch(MatchProposal memory _matchProposal) public {
+    function proposeMatch(MatchProposal calldata _matchProposal) public {
         matchProposals.push(_matchProposal);
     }
 }
