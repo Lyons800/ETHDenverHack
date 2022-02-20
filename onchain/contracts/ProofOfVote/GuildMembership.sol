@@ -10,7 +10,7 @@ contract GuildMembership is ERC721 {
     using Counters for Counters.Counter;
     Counters.Counter private _membershipIds;
 
-    constructor(Guild memory _origin) ERC721(origin.name(), "GLD") {
+    constructor(Guild _origin) ERC721(origin.name(), "GLD") {
         origin = _origin;
     }
 
@@ -29,6 +29,6 @@ contract GuildMembership is ERC721 {
         internal virtual override
     {
         // No transfer allowed
-        revert;
+        revert();
     }
 }

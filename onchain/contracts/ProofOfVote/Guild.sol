@@ -14,7 +14,7 @@ contract Guild {
 
     constructor(string memory _name, address[] memory _initialMembers) {
         console.log("Creating new guild ", _name);
-        membershipToken = new GuildMembership(_name);
+        membershipToken = new GuildMembership(this);
 
         // award initial memberships
         for(uint256 i = 0; i < _initialMembers.length; i++) {
@@ -29,7 +29,7 @@ contract Guild {
     function publishBounty(string memory _ipfsDescription) public onlyMember {
 
         // Todo: Add deadline (?)
-        bounties.push(new OnboardingBounty(_ipfsDescription));
+        bounties.push(new OnboardingBounty(this, _ipfsDescription));
     }
 
     function publishVote(string memory _ipfsDescription) public onlyMember {

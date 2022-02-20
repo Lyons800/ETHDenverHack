@@ -4,15 +4,15 @@ pragma solidity ^0.8.0;
 import "./Organization.sol";
 
 contract Mission {
-    address private proposer;
-    string private missionStatementIpfs;
-    Organization private origin;
+    address public proposer;
+    string public goal;
+    Organization public origin;
 
-    constructor(Organization _origin, string memory _missionStatementIpfs) {
+    constructor(Organization _origin, string memory _goal) {
         require(_origin.isMember(msg.sender));
         
         proposer = msg.sender;
-        missionStatementIpfs = _missionStatementIpfs;
+        goal = _goal;
         origin = _origin;
     }
 
@@ -25,11 +25,11 @@ contract Mission {
     mapping(address => MissalignmentVote) explicitMissalignmentVotes;
 
     function expressMissalignment(MissalignmentVote calldata vote) public onlyOrganizationMember {
-        if (keccak256(abi.encodePacked(vote.reasonIpfs)) == keccak256(abi.encodePacked(""))) {
+        if (keccak256(abi.encodePacked(vote.reason)) == keccak256(abi.encodePacked(""))) {
             revert();
         }
 
-        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reasonIpfs)) == keccak256(abi.encodePacked(""))) {
+        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reason)) == keccak256(abi.encodePacked(""))) {
             missalignmentCount += 1;
         }
         
@@ -37,7 +37,7 @@ contract Mission {
     }
 
     function revokeMissalignment() public onlyOrganizationMember {
-        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reasonIpfs)) == keccak256(abi.encodePacked(""))) {
+        if (keccak256(abi.encodePacked(explicitMissalignmentVotes[msg.sender].reason)) == keccak256(abi.encodePacked(""))) {
             missalignmentCount -= 1;
         }
         
@@ -45,6 +45,6 @@ contract Mission {
     }
 
     struct MissalignmentVote {
-        string reasonIpfs;
+        string reason;
     }
 }
