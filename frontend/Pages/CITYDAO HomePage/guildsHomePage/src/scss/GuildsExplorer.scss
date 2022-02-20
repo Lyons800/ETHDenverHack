@@ -1,0 +1,489 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 36px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type3: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+
+.guilds-explorer- {
+  &block {
+    @include flex-column;
+    background-color: rgb(1, 1, 1);
+  }
+  &block.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1700px;
+    flex-shrink: 0;
+  }
+  &flex {
+    @include flex-column;
+  }
+  &flex.layout {
+    position: relative;
+    height: min-content;
+    margin: 57px 10px;
+  }
+  &flex1 {
+    display: flex;
+  }
+  &flex1.layout {
+    position: relative;
+    height: min-content;
+  }
+  &flex1-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 101px;
+  }
+  &icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon.layout {
+    position: relative;
+    height: 100px;
+    width: 101px;
+    min-width: 101px;
+  }
+  &flex1-spacer {
+    flex: 0 1 139px;
+  }
+  &hero-title {
+    font: $font_type0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    letter-spacing: 0px;
+  }
+  &hero-title.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 0px 0px 16px;
+  }
+  &flex2 {
+    display: flex;
+  }
+  &flex2.layout {
+    position: relative;
+    height: min-content;
+    width: 93.16%;
+    margin: 0px auto;
+  }
+  &flex2-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &image3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image3.layout {
+    position: relative;
+    height: 40px;
+    width: 1px;
+    min-width: 1px;
+    margin: 25px 0px 0px;
+  }
+  &flex2-spacer {
+    flex: 0 1 188px;
+  }
+  &hero-title1 {
+    @include font-face($font_type1, rgb(255, 255, 255), 0px);
+  }
+  &hero-title1.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 0px 0px 21px;
+  }
+  &icon1 {
+    background: var(--src) center center / contain no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  &small-text-body {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &small-text-body.layout {
+    position: relative;
+    height: min-content;
+    margin: 5px 32px 0px;
+  }
+  &flex3 {
+    display: flex;
+  }
+  &flex3.layout {
+    position: relative;
+    height: min-content;
+    margin: 1px 19px 0px;
+  }
+  &flex3-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 65px;
+  }
+  &flex4 {
+    @include flex-column;
+  }
+  &flex4.layout {
+    position: relative;
+    height: min-content;
+    margin: 9px 0px 0px;
+  }
+  &image2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image2.layout {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 0px 32px;
+  }
+  &icon11 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon11.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+  }
+  &small-text-body.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 8px 8px 0px 9px;
+  }
+  &image2.layout1 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 7px 32px 0px;
+  }
+  &icon12 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon12.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+  }
+  &flex3-spacer {
+    flex: 0 1 156px;
+  }
+  &flex3-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &image {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image.layout {
+    position: relative;
+    height: 200px;
+    margin: 0px 0px 13px;
+  }
+  &flex3-spacer1 {
+    flex: 0 1 71px;
+  }
+  &flex3-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &flex3-spacer2 {
+    flex: 0 1 71px;
+  }
+  &flex3-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &flex3-spacer3 {
+    flex: 0 1 71px;
+  }
+  &flex3-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &small-text-body.layout2 {
+    position: relative;
+    height: min-content;
+    margin: 5px 13px 0px;
+  }
+  &flex5 {
+    display: flex;
+  }
+  &flex5.layout {
+    position: relative;
+    height: min-content;
+    margin: 3px 19px 0px;
+  }
+  &flex5-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 65px;
+  }
+  &flex6 {
+    @include flex-column;
+  }
+  &flex6.layout {
+    position: relative;
+    height: min-content;
+    margin: 4px 0px 167px;
+  }
+  &icon13 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon13.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+  }
+  &small-text-body.layout3 {
+    position: relative;
+    height: min-content;
+    margin: 5px 0px 0px 1px;
+  }
+  &flex5-spacer {
+    flex: 0 1 156px;
+  }
+  &flex5-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &flex7 {
+    @include flex-column;
+  }
+  &flex7.layout {
+    position: relative;
+    height: min-content;
+  }
+  &medium-title {
+    @include font-face($font_type3, rgb(255, 255, 255), 0px);
+  }
+  &medium-title.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 10px 0px 16px;
+  }
+  &image.layout1 {
+    position: relative;
+    height: 200px;
+    margin: 49px 0px 0px;
+  }
+  &flex5-spacer1 {
+    flex: 0 1 71px;
+  }
+  &flex5-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &medium-title1 {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type3;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &medium-title1.layout {
+    position: relative;
+    height: min-content;
+    width: 96px;
+    min-width: 96px;
+    margin: 0px auto;
+  }
+  &image.layout2 {
+    position: relative;
+    height: 200px;
+    margin: 49px 0px 0px;
+  }
+  &flex5-spacer2 {
+    flex: 0 1 71px;
+  }
+  &flex5-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &medium-title2-box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &medium-title2-box.layout {
+    position: relative;
+    height: min-content;
+    width: 84px;
+    min-width: 84px;
+    margin: 0px auto;
+  }
+  &medium-title2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type3;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &image.layout3 {
+    position: relative;
+    height: 200px;
+    margin: 49px 0px 0px;
+  }
+  &flex5-spacer3 {
+    flex: 0 1 71px;
+  }
+  &flex5-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 200px;
+  }
+  &flex10 {
+    @include flex-column;
+  }
+  &flex10.layout {
+    position: relative;
+    height: min-content;
+  }
+  &medium-title.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 0px 22px 0px 29px;
+  }
+  &cover-block {
+    @include flex-column;
+    background: var(--src) center center / contain no-repeat;
+  }
+  &cover-block.layout {
+    position: relative;
+    height: min-content;
+    margin: 49px 0px 0px;
+  }
+  &image1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image1.layout {
+    position: relative;
+    height: 150px;
+    width: 1px;
+    min-width: 1px;
+    margin: 25px auto;
+  }
+  &flex11 {
+    display: flex;
+  }
+  &flex11.layout {
+    position: relative;
+    height: min-content;
+    width: 65.08%;
+    margin: 36px auto 0px;
+  }
+  &medium-title.layout2 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &flex11-spacer {
+    flex: 0 1 143px;
+  }
+  &medium-title.layout3 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &flex11-spacer1 {
+    flex: 0 1 145px;
+  }
+  &medium-title3-box.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &medium-title3 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    @include font-face($font_type3, rgb(255, 255, 255), 0px);
+    white-space: pre-wrap;
+  }
+  &flex11-spacer2 {
+    flex: 0 1 109px;
+  }
+  &medium-title.layout4 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &group {
+    @include flex-column;
+  }
+  &group.layout {
+    position: relative;
+    height: min-content;
+    width: 68.9%;
+    margin: 45px auto 0px;
+  }
+  &cover-block.layout1 {
+    position: absolute;
+    top: 8px;
+    height: min-content;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 19.46%;
+    margin: 0px 80.54% 0px 0%;
+  }
+  &line {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &line.layout {
+    position: relative;
+    height: 1px;
+    margin: 100px 25px 99px;
+  }
+  &cover-block.layout2 {
+    position: absolute;
+    top: 0px;
+    height: min-content;
+    bottom: 8px;
+    left: 0px;
+    right: 0px;
+    width: 19.46%;
+    margin: 0px 0% 0px 80.54%;
+  }
+  &cover-block.layout3 {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    width: 19.46%;
+    margin: 0px 27.82% 8px 52.72%;
+  }
+  &cover-block.layout4 {
+    position: relative;
+    height: 200px;
+    width: 19.46%;
+    margin: 8px 54.18% 0px 26.36%;
+  }
+  &group.layout1 {
+    position: relative;
+    height: 208px;
+    width: 68.9%;
+    margin: 42px auto 253px;
+  }
+}
