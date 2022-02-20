@@ -4,11 +4,6 @@ pragma solidity ^0.8.0;
 import "./Order.sol";
 
 contract OrderBook {
-    constructor() {
-        openOffers = new Order[](0);
-        openAsks = new Order[](0);
-    }
-
     // Descriptions of what can possibly be done, according to the participant who submitted the order
     Order[] public openOffers;
 
@@ -20,10 +15,12 @@ contract OrderBook {
     // B               (  T                  )
 
     function submitOffer(string memory _statement) public {
-        openOffers.push(new Order(msg.sender, _statement));
+        openOffers.push(Order(msg.sender, ""));
+        openOffers[openOffers.length - 1].statement = _statement;
     }
     
     function submitAsk(string memory _statement) public {
-        openOffers.push(new Order(msg.sender, _statement));
+        openAsks.push(Order(msg.sender, ""));
+        openAsks[openOffers.length - 1].statement = _statement;
     }
 }

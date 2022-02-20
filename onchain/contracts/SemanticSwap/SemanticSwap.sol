@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 import "./OrderBook.sol";
 import "./MatchProposal.sol";
+import "./MatchLink.sol";
 
 contract SemanticSwap {
     constructor() {
@@ -12,7 +13,4 @@ contract SemanticSwap {
     OrderBook public orderBook;
     MatchProposal[] public matchProposals;
 
-    function proposeMatch(MatchProposal calldata _matchProposal) public {
-        matchProposals.push(_matchProposal);
-    }
 }

@@ -1,14 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract Order {
-    constructor(address _participant, string memory _statement) {
-        participant = _participant;
-        statement = _statement;
-        open = true;
-    }
-
-    address public participant;
-    string public statement;
-    bool public open;
+struct Order {
+    address participant;
+    string statement;
 }
