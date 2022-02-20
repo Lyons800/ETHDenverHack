@@ -11,7 +11,7 @@
             <input id="new-ask-payload" type="text" placeholder="I want..." />
             <button type="button" onclick="SubmitAsk()">Submit Ask</button>
 
-            <p>You are ablte to do someting? Submit a semantic offer:</p>
+            <p>You are able to do someting? Submit a semantic offer:</p>
             <input id="new-offer-payload" type="text" placeholder="I can..." />
             <button type="button" onclick="SubmitOffer()">Submit Offer</button>
         </form>
@@ -23,7 +23,12 @@
 
         <div>
             <p>Open offers:</p>
-            <div id="open-offers"></div>
+            <ul id="open-offers"></ul>
+        </div>
+
+        <div>
+            <p>Your matches:</p>
+            <ul id="matches"></ul>
         </div>
 
         <script src="web3.min.js"></script>

@@ -102,11 +102,28 @@ const ListOffers = async () => {
     }
 } 
 
+const ListMatches = async () => {
+    const myMatches = await semanticSwapInstance.methods.listMatchProposals(currentAccount).call();
+    console.log(myMatches);
+
+    const container = document.getElementById("matches");
+
+    for (var i = 0; i < myMatches.length; i++) {
+        const statement = ""; // Todo: Query statement
+
+        const node = document.createElement("li");
+        const textnode = document.createTextNode(statement);
+        node.appendChild(textnode);
+        container.appendChild(node);
+    }
+} 
+
 const Initialize = async () => {
     await ConnectWallet();
     await DownloadContractInfo();
     await ListAsks();
     await ListOffers();
+    await ListMatches();
 }
 
 // Try to connect right away and download contract info
