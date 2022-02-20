@@ -1,6 +1,6 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 var currentAccount = null;
-const contractAddress = "0x281Fc06B19191C99e205AF1A0A500d163fC8736F";
+const contractAddress = "0x4E60138CBB19FdBAC0233eD38E5dD5F3DDCDF838";
 var semanticSwapInstance = null;
 var orderBookInstance = null;
 
@@ -29,10 +29,12 @@ const ConnectWallet = async () => {
 
 const SubmitAsk = async () => {
     try {
-        const receipt = await web3.eth.sendTransaction({
-            from: currentAccount,
-            to: contractAddress,
-            value: '1'
+        var askPayloadTextBox = document.getElementById("new-ask-payload");
+        const askPayload = askPayloadTextBox.value;
+        console.log("Submittig new ask '" + askPayload + "'");
+
+        var receipt = await orderBookInstance.methods.submitAsk(askPayload).send({
+            from: currentAccount
         });
     
         console.log(receipt);
@@ -42,7 +44,19 @@ const SubmitAsk = async () => {
 }
 
 const SubmitOffer = async () => {
+    try {
+        var offerPayloadTextBox = document.getElementById("new-offer-payload");
+        const offerPayload = offerPayloadTextBox.value;
+        console.log("Submittig new offer '" + offerPayload + "'");
 
+        var receipt = await orderBookInstance.methods.submitAsk(offerPayload).send({
+            from: currentAccount
+        });
+    
+        console.log(receipt);
+    } catch(error) {
+        console.log(error);
+    }
 }
 
 const Initialize = async () => {
