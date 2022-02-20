@@ -1,12 +1,17 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
-const contractAddress = "0x6b112699AD0230e718629c272C3D2d40f50B48b6";
-var semanticSwapContract = null;
 var currentAccount = null;
+const contractAddress = "0x281Fc06B19191C99e205AF1A0A500d163fC8736F";
+var semanticSwapInstance = null;
+var orderBookInstance = null;
 
 const DownloadContractInfo = async () => {
     try {
-        const contractInfo = await (await fetch("/SemanticSwap.json")).json();
-        semanticSwapContract = new web3.eth.Contract(contractInfo.abi);
+        const semanticSwapContractInfo = await (await fetch("/SemanticSwap.json")).json();
+        semanticSwapInstance = new web3.eth.Contract(semanticSwapContractInfo.abi, contractAddress);
+        const orderBookContractInfo = await (await fetch("/OrderBook.json")).json();
+        const orderBookAddress = await semanticSwapInstance.methods.orderBook().call();
+        console.log(orderBookAddress);
+        orderBookInstance = new web3.eth.Contract(orderBookContractInfo.abi, orderBookAddress);
     } catch (error) {
         console.log(error);
     }
