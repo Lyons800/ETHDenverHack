@@ -1,14 +1,17 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 var currentAccount = null;
-const contractAddress = "0x4E60138CBB19FdBAC0233eD38E5dD5F3DDCDF838";
+const contractAddress = "0x4ae08DE4741cB0a889FF310D3E36775e268e53DE";
 var semanticSwapInstance = null;
 var orderBookInstance = null;
+var orderContractInfo = null;
 
 const DownloadContractInfo = async () => {
     try {
         const semanticSwapContractInfo = await (await fetch("/SemanticSwap.json")).json();
-        semanticSwapInstance = new web3.eth.Contract(semanticSwapContractInfo.abi, contractAddress);
         const orderBookContractInfo = await (await fetch("/OrderBook.json")).json();
+        orderContractInfo = await (await fetch("/Order.json")).json();
+        
+        semanticSwapInstance = new web3.eth.Contract(semanticSwapContractInfo.abi, contractAddress);
         const orderBookAddress = await semanticSwapInstance.methods.orderBook().call();
         console.log(orderBookAddress);
         orderBookInstance = new web3.eth.Contract(orderBookContractInfo.abi, orderBookAddress);
@@ -49,7 +52,7 @@ const SubmitOffer = async () => {
         const offerPayload = offerPayloadTextBox.value;
         console.log("Submittig new offer '" + offerPayload + "'");
 
-        var receipt = await orderBookInstance.methods.submitAsk(offerPayload).send({
+        var receipt = await orderBookInstance.methods.submitOffer(offerPayload).send({
             from: currentAccount
         });
     
@@ -59,9 +62,51 @@ const SubmitOffer = async () => {
     }
 }
 
+const ListAsks = async () => {
+    const length = await orderBookInstance.methods.askLength().call();
+    console.log(length);
+
+    const container = document.getElementById("open-asks");
+
+    for (var i = 0; i < length; i++) {
+        const response = await orderBookInstance.methods.getAsk(i).call();
+        console.log(response);
+        var order = new web3.eth.Contract(orderContractInfo.abi, response);
+        const statement = await order.methods.statement().call();
+        console.log(statement);
+
+        const node = document.createElement("li");
+        const textnode = document.createTextNode(statement);
+        node.appendChild(textnode);
+        container.appendChild(node);
+    }
+} 
+
+const ListOffers = async () => {
+    const length = await orderBookInstance.methods.offerLength().call();
+    console.log(length);
+
+    const container = document.getElementById("open-offers");
+
+    for (var i = 0; i < length; i++) {
+        const response = await orderBookInstance.methods.getOffer(i).call();
+        console.log(response);
+        var order = new web3.eth.Contract(orderContractInfo.abi, response);
+        const statement = await order.methods.statement().call();
+        console.log(statement);
+
+        const node = document.createElement("li");
+        const textnode = document.createTextNode(statement);
+        node.appendChild(textnode);
+        container.appendChild(node);
+    }
+} 
+
 const Initialize = async () => {
     await ConnectWallet();
     await DownloadContractInfo();
+    await ListAsks();
+    await ListOffers();
 }
 
 // Try to connect right away and download contract info
