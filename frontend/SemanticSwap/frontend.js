@@ -1,6 +1,6 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 var currentAccount = null;
-const contractAddress = "0x13B313a703ba7109831C662c92a6A905Ec07240e";
+const contractAddress = "0x5eE1F28F4ec5EBEB9b63978474CaaaBEBA030171";
 var semanticSwapInstance = null;
 var orderBookInstance = null;
 var orderContractInfo = null;
