@@ -1,0 +1,278 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 36px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type3: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+
+.city-da-ohome- {
+  &group {
+    @include flex-column;
+    background-color: rgb(0, 0, 0);
+  }
+  &group.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1700px;
+    flex-shrink: 0;
+  }
+  &flex {
+    @include flex-column;
+  }
+  &flex.layout {
+    position: relative;
+    height: min-content;
+    margin: 57px 10px;
+  }
+  &flex1 {
+    display: flex;
+  }
+  &flex1.layout {
+    position: relative;
+    height: min-content;
+  }
+  &flex1-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 101px;
+  }
+  &img {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &img.layout {
+    position: relative;
+    height: 100px;
+    width: 101px;
+    min-width: 101px;
+  }
+  &flex1-spacer {
+    flex: 0 1 139px;
+  }
+  &txt {
+    font: $font_type0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    letter-spacing: 0px;
+  }
+  &txt.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 0px 0px 15px;
+  }
+  &flex2 {
+    display: flex;
+  }
+  &flex2.layout {
+    position: relative;
+    height: min-content;
+    width: 93.16%;
+    margin: 8px auto 0px;
+  }
+  &flex2-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &img.layout1 {
+    position: relative;
+    height: 40px;
+    width: 1px;
+    min-width: 1px;
+    margin: 22px 0px 0px;
+  }
+  &flex2-spacer {
+    flex: 0 1 188px;
+  }
+  &txt1 {
+    @include font-face($font_type1, rgb(255, 255, 255), 0px);
+  }
+  &txt1.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 0px 0px 18px;
+  }
+  &flex3 {
+    display: flex;
+  }
+  &flex3.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 7px 0px 13px;
+  }
+  &flex3-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 77px;
+  }
+  &flex4 {
+    @include flex-column;
+  }
+  &flex4.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 0px 267px;
+  }
+  &img.layout2 {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 6px;
+  }
+  &txt2 {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &txt2.layout {
+    position: relative;
+    height: min-content;
+    margin: 5px 20px 0px 19px;
+  }
+  &img.layout3 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 11px 38px 0px;
+  }
+  &img.layout4 {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 6px;
+  }
+  &txt3 {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &txt3.layout {
+    position: relative;
+    height: min-content;
+    margin: 8px 16px 0px 15px;
+  }
+  &img.layout5 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 8px 38px 0px;
+  }
+  &img.layout6 {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 6px;
+  }
+  &txt4 {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &txt4.layout {
+    position: relative;
+    height: min-content;
+    margin: 5px 0px 0px;
+  }
+  &img.layout7 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 8px 38px 0px;
+  }
+  &img.layout8 {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 6px;
+  }
+  &txt5 {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &txt5.layout {
+    position: relative;
+    height: min-content;
+    margin: 5px 8px 0px 7px;
+  }
+  &flex3-spacer {
+    flex: 0 1 42px;
+  }
+  &flex3-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 1353px;
+  }
+  &img.layout9 {
+    position: relative;
+    height: 695px;
+    margin: 5px 0px 0px;
+  }
+  &flex5 {
+    display: flex;
+  }
+  &flex5.layout {
+    position: relative;
+    height: min-content;
+    width: 82.31%;
+    margin: 75px auto 493px;
+  }
+  &flex5-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 316px;
+  }
+  &cover-block {
+    @include flex-column;
+  }
+  &cover-block.layout {
+    position: relative;
+    height: min-content;
+  }
+  &background {
+    background-color: rgb(196, 196, 196);
+    border: 3px solid rgb(117, 251, 175);
+    border-radius: 33px 33px 33px 33px;
+  }
+  &background.layout {
+    position: absolute;
+    top: 0px;
+    height: 148px;
+    left: 0px;
+    right: 0px;
+  }
+  &txt6 {
+    @include font-face($font_type3, rgb(0, 0, 0), 0px);
+  }
+  &txt6.layout {
+    position: relative;
+    height: min-content;
+    width: 68px;
+    min-width: 68px;
+    margin: 60px auto;
+  }
+  &flex5-spacer {
+    flex: 0 1 140px;
+  }
+  &txt7 {
+    @include font-face($font_type3, rgb(0, 0, 0), 0px);
+  }
+  &txt7.layout {
+    position: relative;
+    height: min-content;
+    width: 94px;
+    min-width: 94px;
+    margin: 60px auto;
+  }
+  &txt8 {
+    @include font-face($font_type3, rgb(0, 0, 0), 0px);
+  }
+  &txt8.layout {
+    position: relative;
+    height: min-content;
+    width: 51.27%;
+    margin: 60px auto;
+  }
+}

@@ -1,0 +1,325 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.city-da-ohome-group {
+  display: flex;
+  flex-direction: column;
+  background-color: black; }
+
+.city-da-ohome-group.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1700px;
+  flex-shrink: 0; }
+
+.city-da-ohome-flex {
+  display: flex;
+  flex-direction: column; }
+
+.city-da-ohome-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 57px 10px; }
+
+.city-da-ohome-flex1 {
+  display: flex; }
+
+.city-da-ohome-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.city-da-ohome-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 101px; }
+
+.city-da-ohome-img {
+  background: var(--src) center center/contain no-repeat; }
+
+.city-da-ohome-img.layout {
+  position: relative;
+  height: 100px;
+  width: 101px;
+  min-width: 101px; }
+
+.city-da-ohome-flex1-spacer {
+  flex: 0 1 139px; }
+
+.city-da-ohome-txt {
+  font: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 15px; }
+
+.city-da-ohome-flex2 {
+  display: flex; }
+
+.city-da-ohome-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 93.16%;
+  margin: 8px auto 0px; }
+
+.city-da-ohome-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 1px; }
+
+.city-da-ohome-img.layout1 {
+  position: relative;
+  height: 40px;
+  width: 1px;
+  min-width: 1px;
+  margin: 22px 0px 0px; }
+
+.city-da-ohome-flex2-spacer {
+  flex: 0 1 188px; }
+
+.city-da-ohome-txt1 {
+  font: 36px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 18px; }
+
+.city-da-ohome-flex3 {
+  display: flex; }
+
+.city-da-ohome-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 7px 0px 13px; }
+
+.city-da-ohome-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 77px; }
+
+.city-da-ohome-flex4 {
+  display: flex;
+  flex-direction: column; }
+
+.city-da-ohome-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 267px; }
+
+.city-da-ohome-img.layout2 {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 6px; }
+
+.city-da-ohome-txt2 {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 20px 0px 19px; }
+
+.city-da-ohome-img.layout3 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 11px 38px 0px; }
+
+.city-da-ohome-img.layout4 {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 6px; }
+
+.city-da-ohome-txt3 {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 8px 16px 0px 15px; }
+
+.city-da-ohome-img.layout5 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 8px 38px 0px; }
+
+.city-da-ohome-img.layout6 {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 6px; }
+
+.city-da-ohome-txt4 {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 0px 0px; }
+
+.city-da-ohome-img.layout7 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 8px 38px 0px; }
+
+.city-da-ohome-img.layout8 {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 6px; }
+
+.city-da-ohome-txt5 {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 8px 0px 7px; }
+
+.city-da-ohome-flex3-spacer {
+  flex: 0 1 42px; }
+
+.city-da-ohome-flex3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 1353px; }
+
+.city-da-ohome-img.layout9 {
+  position: relative;
+  height: 695px;
+  margin: 5px 0px 0px; }
+
+.city-da-ohome-flex5 {
+  display: flex; }
+
+.city-da-ohome-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 82.31%;
+  margin: 75px auto 493px; }
+
+.city-da-ohome-flex5-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 316px; }
+
+.city-da-ohome-cover-block {
+  display: flex;
+  flex-direction: column; }
+
+.city-da-ohome-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.city-da-ohome-background {
+  background-color: #c4c4c4;
+  border: 3px solid #75fbaf;
+  border-radius: 33px 33px 33px 33px; }
+
+.city-da-ohome-background.layout {
+  position: absolute;
+  top: 0px;
+  height: 148px;
+  left: 0px;
+  right: 0px; }
+
+.city-da-ohome-txt6 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 68px;
+  min-width: 68px;
+  margin: 60px auto; }
+
+.city-da-ohome-flex5-spacer {
+  flex: 0 1 140px; }
+
+.city-da-ohome-txt7 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 94px;
+  min-width: 94px;
+  margin: 60px auto; }
+
+.city-da-ohome-txt8 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.city-da-ohome-txt8.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 51.27%;
+  margin: 60px auto; }
