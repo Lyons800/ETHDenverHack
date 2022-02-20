@@ -6,6 +6,14 @@
         <form>
             <button type="button" onclick="ConnectWallet()">Connect Wallet</button>
             <p id="wallet-address">No wallet connected</p>
+
+            <p>You want to have something done? Submit a semantic ask:</p>
+            <input id="new-ask-payload" type="text" placeholder="I want..." />
+            <button type="button" onclick="SubmitAsk()">Submit Ask</button>
+
+            <p>You are ablte to do someting? Submit a semantic offer:</p>
+            <input id="new-offer-payload" type="text" placeholder="I can..." />
+            <button type="button" onclick="SubmitOffer()">Submit Offer</button>
         </form>
 
         <script src="web3.min.js"></script>
