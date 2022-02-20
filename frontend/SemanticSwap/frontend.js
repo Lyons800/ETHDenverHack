@@ -1,6 +1,6 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 var currentAccount = null;
-const contractAddress = "0x4ae08DE4741cB0a889FF310D3E36775e268e53DE";
+const contractAddress = "0x409488F6e4bcE418F9E90464863c3Caa34D6f5FE";
 var semanticSwapInstance = null;
 var orderBookInstance = null;
 var orderContractInfo = null;
@@ -36,7 +36,7 @@ const SubmitAsk = async () => {
         const askPayload = askPayloadTextBox.value;
         console.log("Submittig new ask '" + askPayload + "'");
 
-        var receipt = await orderBookInstance.methods.submitAsk(askPayload).send({
+        var receipt = await orderBookInstance.methods.submitAsk(askPayload, "0x0000000000000000000000000000000000000000").send({
             from: currentAccount
         });
     
@@ -52,7 +52,7 @@ const SubmitOffer = async () => {
         const offerPayload = offerPayloadTextBox.value;
         console.log("Submittig new offer '" + offerPayload + "'");
 
-        var receipt = await orderBookInstance.methods.submitOffer(offerPayload).send({
+        var receipt = await orderBookInstance.methods.submitOffer(offerPayload, "0x0000000000000000000000000000000000000000").send({
             from: currentAccount
         });
     
