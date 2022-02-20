@@ -15,10 +15,33 @@ contract OrderBook {
     // B               (  T                  )
 
     function submitOffer(string memory _statement) public {
-        openOffers.push(new Order(msg.sender, _statement));
+        Order order = new Order(msg.sender, _statement);
+        openOffers.push(order);
+        emit OfferSubmitted(order.participant(), order.statement(), order);
     }
     
     function submitAsk(string memory _statement) public {
-        openAsks.push(new Order(msg.sender, _statement));
+        Order order = new Order(msg.sender, _statement);
+        openAsks.push(order);
+        emit AskSubmitted(order.participant(), order.statement(), order);
+    }
+
+    event OfferSubmitted(address _participant, string _statement, Order _order);
+    event AskSubmitted(address _participant, string _statement, Order _order);
+
+    function offerLength() public view returns(uint256 length) {
+        return openOffers.length;
+    }
+    
+    function askLength() public view returns(uint256 length) {
+        return openAsks.length;
+    }
+
+    function getOffer(uint256 index) public view returns(address offer) {
+        return address(openOffers[index]);
+    }
+    
+    function getAsk(uint256 index) public view returns(address ask) {
+        return address(openAsks[index]);
     }
 }

@@ -1,0 +1,365 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.d-ai-home-screen-block {
+  display: flex;
+  flex-direction: column;
+  background-color: black; }
+
+.d-ai-home-screen-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1700px;
+  flex-shrink: 0; }
+
+.d-ai-home-screen-flex {
+  display: flex;
+  flex-direction: column; }
+
+.d-ai-home-screen-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 82.14%;
+  margin: 110px auto; }
+  @media (max-width: 1399px) {
+    .d-ai-home-screen-flex.layout {
+      width: 85.98%; } }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-flex.layout {
+      width: 89.1%;
+      margin: 90px auto; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-flex.layout {
+      width: 91.6%;
+      margin: 69px auto; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-flex.layout {
+      width: 93.56%;
+      margin: 51px auto; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-flex.layout {
+      width: 95.09%;
+      margin: 42px auto; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-flex.layout {
+      width: 96.27%;
+      margin: 32px auto; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-flex.layout {
+      width: 97.18%;
+      margin: 26px auto; } }
+
+.d-ai-home-screen-hero-title {
+  display: flex;
+  justify-content: flex-end;
+  font: 72px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 63px;
+      text-align: right; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 53px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 44px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 40px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 36px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-hero-title {
+      font-size: 33px; } }
+
+.d-ai-home-screen-hero-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 47.02%;
+  margin: 0px auto; }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-hero-title.layout {
+      width: 54.21%; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-hero-title.layout {
+      width: 61.23%; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-hero-title.layout {
+      width: 67.79%; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-hero-title.layout {
+      width: 73.73%; } }
+
+.d-ai-home-screen-flex1 {
+  display: flex; }
+
+.d-ai-home-screen-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 92.75%;
+  margin: 104px auto 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 94.46%;
+      margin: 86px auto 0px; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 95.79%;
+      margin: 66px auto 0px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 96.81%;
+      margin: 49px auto 0px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 97.59%;
+      margin: 41px auto 0px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 98.18%;
+      margin: 32px auto 0px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-flex1.layout {
+      width: 98.63%;
+      margin: 26px auto 0px; } }
+
+.d-ai-home-screen-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 122px; }
+
+.d-ai-home-screen-icon {
+  background: var(--src) center center/contain no-repeat; }
+
+.d-ai-home-screen-icon.layout {
+  position: relative;
+  height: 125px;
+  width: 122px;
+  min-width: 122px; }
+
+.d-ai-home-screen-flex1-spacer {
+  flex: 0 1 121px; }
+
+.d-ai-home-screen-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 117px; }
+
+.d-ai-home-screen-icon1 {
+  background: var(--src) center center/contain no-repeat; }
+
+.d-ai-home-screen-icon1.layout {
+  position: relative;
+  height: 113px;
+  width: 117px;
+  min-width: 117px;
+  margin: 12px 0px 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-icon1.layout {
+      margin: 11px 0px 0px; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-icon1.layout {
+      margin: 9px 0px 0px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-icon1.layout {
+      margin: 8px 0px 0px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-icon1.layout {
+      margin: 7px 0px 0px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-icon1.layout {
+      margin: 6px 0px 0px; } }
+
+.d-ai-home-screen-flex1-spacer1 {
+  flex: 0 1 156px; }
+
+.d-ai-home-screen-flex1-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 111px; }
+
+.d-ai-home-screen-icon2 {
+  background: var(--src) center center/contain no-repeat;
+  border-radius: 39px 39px 39px 39px; }
+
+.d-ai-home-screen-icon2.layout {
+  position: relative;
+  height: 113px;
+  width: 111px;
+  min-width: 111px;
+  margin: 12px 0px 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-icon2.layout {
+      margin: 11px 0px 0px; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-icon2.layout {
+      margin: 9px 0px 0px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-icon2.layout {
+      margin: 8px 0px 0px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-icon2.layout {
+      margin: 7px 0px 0px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-icon2.layout {
+      margin: 6px 0px 0px; } }
+
+.d-ai-home-screen-flex2 {
+  display: flex; }
+
+.d-ai-home-screen-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 90.02%;
+  margin: 19px auto 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 92.32%;
+      margin: 17px auto 0px; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 94.13%;
+      margin: 14px auto 0px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 95.53%;
+      margin: 12px auto 0px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 96.61%;
+      margin: 11px auto 0px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 97.44%;
+      margin: 10px auto 0px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-flex2.layout {
+      width: 98.06%;
+      margin: 9px auto 0px; } }
+
+.d-ai-home-screen-medium-title1 {
+  font: 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 22px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-medium-title1 {
+      font-size: 16px; } }
+
+.d-ai-home-screen-medium-title1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.d-ai-home-screen-flex2-spacer {
+  flex: 0 1 108px; }
+
+.d-ai-home-screen-medium-title2 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 22px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-medium-title2 {
+      font-size: 16px; } }
+
+.d-ai-home-screen-medium-title2.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.d-ai-home-screen-medium-title {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 22px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-medium-title {
+      font-size: 16px; } }
+
+.d-ai-home-screen-medium-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 9px 0px 1078px; }
+  @media (max-width: 1199px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 8px 0px 820px; } }
+  @media (max-width: 991px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 7px 0px 540px; } }
+  @media (max-width: 767px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 6px 0px 301px; } }
+  @media (max-width: 575px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 5px 0px 181px; } }
+  @media (max-width: 479px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 5px 0px 61px; } }
+  @media (max-width: 383px) {
+    .d-ai-home-screen-medium-title.layout {
+      margin: 5px 0px; } }

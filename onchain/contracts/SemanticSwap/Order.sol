@@ -7,6 +7,6 @@ contract Order {
         statement = _statement;
     }
 
-    address participant;
-    string statement;
+    address public participant;
+    string public statement;
 }

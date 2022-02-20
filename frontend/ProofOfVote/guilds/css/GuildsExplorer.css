@@ -1,0 +1,563 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.guilds-explorer-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #010101; }
+
+.guilds-explorer-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1700px;
+  flex-shrink: 0; }
+
+.guilds-explorer-flex {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 57px 10px; }
+
+.guilds-explorer-flex1 {
+  display: flex; }
+
+.guilds-explorer-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 101px; }
+
+.guilds-explorer-icon {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-icon.layout {
+  position: relative;
+  height: 100px;
+  width: 101px;
+  min-width: 101px; }
+
+.guilds-explorer-flex1-spacer {
+  flex: 0 1 139px; }
+
+.guilds-explorer-hero-title {
+  font: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 0px; }
+
+.guilds-explorer-hero-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 16px; }
+
+.guilds-explorer-flex2 {
+  display: flex; }
+
+.guilds-explorer-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 93.16%;
+  margin: 0px auto; }
+
+.guilds-explorer-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 1px; }
+
+.guilds-explorer-image3 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-image3.layout {
+  position: relative;
+  height: 40px;
+  width: 1px;
+  min-width: 1px;
+  margin: 25px 0px 0px; }
+
+.guilds-explorer-flex2-spacer {
+  flex: 0 1 188px; }
+
+.guilds-explorer-hero-title1 {
+  font: 36px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.guilds-explorer-hero-title1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 21px; }
+
+.guilds-explorer-icon1 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.guilds-explorer-small-text-body {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.guilds-explorer-small-text-body.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 32px 0px; }
+
+.guilds-explorer-flex3 {
+  display: flex; }
+
+.guilds-explorer-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 1px 19px 0px; }
+
+.guilds-explorer-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 65px; }
+
+.guilds-explorer-flex4 {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 9px 0px 0px; }
+
+.guilds-explorer-image2 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-image2.layout {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 0px 32px; }
+
+.guilds-explorer-icon11 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-icon11.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px; }
+
+.guilds-explorer-small-text-body.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 8px 8px 0px 9px; }
+
+.guilds-explorer-image2.layout1 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 7px 32px 0px; }
+
+.guilds-explorer-icon12 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-icon12.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px; }
+
+.guilds-explorer-flex3-spacer {
+  flex: 0 1 156px; }
+
+.guilds-explorer-flex3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-image {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-image.layout {
+  position: relative;
+  height: 200px;
+  margin: 0px 0px 13px; }
+
+.guilds-explorer-flex3-spacer1 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex3-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-flex3-spacer2 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex3-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-flex3-spacer3 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex3-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-small-text-body.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 13px 0px; }
+
+.guilds-explorer-flex5 {
+  display: flex; }
+
+.guilds-explorer-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 3px 19px 0px; }
+
+.guilds-explorer-flex5-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 65px; }
+
+.guilds-explorer-flex6 {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-flex6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 4px 0px 167px; }
+
+.guilds-explorer-icon13 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-icon13.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px; }
+
+.guilds-explorer-small-text-body.layout3 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 0px 0px 1px; }
+
+.guilds-explorer-flex5-spacer {
+  flex: 0 1 156px; }
+
+.guilds-explorer-flex5-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-flex7 {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-flex7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-medium-title {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.guilds-explorer-medium-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 10px 0px 16px; }
+
+.guilds-explorer-image.layout1 {
+  position: relative;
+  height: 200px;
+  margin: 49px 0px 0px; }
+
+.guilds-explorer-flex5-spacer1 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex5-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-medium-title1 {
+  display: flex;
+  justify-content: flex-end;
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  letter-spacing: 0px; }
+
+.guilds-explorer-medium-title1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 96px;
+  min-width: 96px;
+  margin: 0px auto; }
+
+.guilds-explorer-image.layout2 {
+  position: relative;
+  height: 200px;
+  margin: 49px 0px 0px; }
+
+.guilds-explorer-flex5-spacer2 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex5-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-medium-title2-box {
+  display: flex;
+  justify-content: flex-end; }
+
+.guilds-explorer-medium-title2-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 84px;
+  min-width: 84px;
+  margin: 0px auto; }
+
+.guilds-explorer-medium-title2 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.guilds-explorer-image.layout3 {
+  position: relative;
+  height: 200px;
+  margin: 49px 0px 0px; }
+
+.guilds-explorer-flex5-spacer3 {
+  flex: 0 1 71px; }
+
+.guilds-explorer-flex5-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 200px; }
+
+.guilds-explorer-flex10 {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-flex10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-medium-title.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 22px 0px 29px; }
+
+.guilds-explorer-cover-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 49px 0px 0px; }
+
+.guilds-explorer-image1 {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-image1.layout {
+  position: relative;
+  height: 150px;
+  width: 1px;
+  min-width: 1px;
+  margin: 25px auto; }
+
+.guilds-explorer-flex11 {
+  display: flex; }
+
+.guilds-explorer-flex11.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 65.08%;
+  margin: 36px auto 0px; }
+
+.guilds-explorer-medium-title.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-flex11-spacer {
+  flex: 0 1 143px; }
+
+.guilds-explorer-medium-title.layout3 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-flex11-spacer1 {
+  flex: 0 1 145px; }
+
+.guilds-explorer-medium-title3-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-medium-title3 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.guilds-explorer-flex11-spacer2 {
+  flex: 0 1 109px; }
+
+.guilds-explorer-medium-title.layout4 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.guilds-explorer-group {
+  display: flex;
+  flex-direction: column; }
+
+.guilds-explorer-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 68.9%;
+  margin: 45px auto 0px; }
+
+.guilds-explorer-cover-block.layout1 {
+  position: absolute;
+  top: 8px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 19.46%;
+  margin: 0px 80.54% 0px 0%; }
+
+.guilds-explorer-line {
+  background: var(--src) center center/contain no-repeat; }
+
+.guilds-explorer-line.layout {
+  position: relative;
+  height: 1px;
+  margin: 100px 25px 99px; }
+
+.guilds-explorer-cover-block.layout2 {
+  position: absolute;
+  top: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 8px;
+  left: 0px;
+  right: 0px;
+  width: 19.46%;
+  margin: 0px 0% 0px 80.54%; }
+
+.guilds-explorer-cover-block.layout3 {
+  position: absolute;
+  top: 0px;
+  height: 200px;
+  left: 0px;
+  right: 0px;
+  width: 19.46%;
+  margin: 0px 27.82% 8px 52.72%; }
+
+.guilds-explorer-cover-block.layout4 {
+  position: relative;
+  height: 200px;
+  width: 19.46%;
+  margin: 8px 54.18% 0px 26.36%; }
+
+.guilds-explorer-group.layout1 {
+  position: relative;
+  height: 208px;
+  width: 68.9%;
+  margin: 42px auto 253px; }
