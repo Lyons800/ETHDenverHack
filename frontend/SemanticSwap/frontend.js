@@ -1,6 +1,6 @@
 const web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
 var currentAccount = null;
-const contractAddress = "0x409488F6e4bcE418F9E90464863c3Caa34D6f5FE";
+const contractAddress = "0x13B313a703ba7109831C662c92a6A905Ec07240e";
 var semanticSwapInstance = null;
 var orderBookInstance = null;
 var orderContractInfo = null;
@@ -70,10 +70,10 @@ const ListAsks = async () => {
 
     for (var i = 0; i < length; i++) {
         const response = await orderBookInstance.methods.getAsk(i).call();
-        console.log(response);
         var order = new web3.eth.Contract(orderContractInfo.abi, response);
         const statement = await order.methods.statement().call();
-        console.log(statement);
+
+        console.log("Ask '" + response + "' with statement'" + statement + "'");
 
         const node = document.createElement("li");
         const textnode = document.createTextNode(statement);
@@ -90,10 +90,10 @@ const ListOffers = async () => {
 
     for (var i = 0; i < length; i++) {
         const response = await orderBookInstance.methods.getOffer(i).call();
-        console.log(response);
         var order = new web3.eth.Contract(orderContractInfo.abi, response);
         const statement = await order.methods.statement().call();
-        console.log(statement);
+
+        console.log("Offer '" + response + "' with statement'" + statement + "'");
 
         const node = document.createElement("li");
         const textnode = document.createTextNode(statement);
