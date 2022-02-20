@@ -1,0 +1,745 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 36px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type3: 30px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type4: 24px/1.2 "Inter", Helvetica, Arial, serif;
+
+.dai-bounties-screen- {
+  &block {
+    @include flex-column;
+    background-color: rgb(0, 0, 0);
+  }
+  &block.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1700px;
+    flex-shrink: 0;
+  }
+  &flex {
+    @include flex-column;
+  }
+  &flex.layout {
+    position: relative;
+    height: min-content;
+    margin: 57px 10px;
+  }
+  &flex1 {
+    display: flex;
+  }
+  &flex1.layout {
+    position: relative;
+    height: min-content;
+  }
+  &flex1-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 101px;
+  }
+  &icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon.layout {
+    position: relative;
+    height: 100px;
+    width: 101px;
+    min-width: 101px;
+  }
+  &flex1-spacer {
+    flex: 0 1 53px;
+  }
+  &hero-title1 {
+    font: $font_type0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    letter-spacing: 0px;
+  }
+  &hero-title1.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 8px 0px;
+  }
+  &flex2 {
+    display: flex;
+  }
+  &flex2.layout {
+    position: relative;
+    height: min-content;
+    width: 93.3%;
+    margin: 8px auto 0px;
+  }
+  &flex2-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &image3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image3.layout {
+    position: relative;
+    height: 40px;
+    width: 1px;
+    min-width: 1px;
+    margin: 13px 0px 0px;
+  }
+  &flex2-spacer {
+    flex: 0 1 103px;
+  }
+  &hero-title {
+    @include font-face($font_type1, rgb(255, 255, 255), 0px);
+  }
+  &hero-title.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 0px 0px 9px;
+  }
+  &icon1 {
+    background: var(--src) center center / contain no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  &flex3 {
+    display: flex;
+  }
+  &flex3.layout {
+    position: relative;
+    height: min-content;
+    margin: 5px 12px 0px;
+  }
+  &flex3-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 75px;
+  }
+  &flex4 {
+    @include flex-column;
+  }
+  &flex4.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 0px 26px;
+  }
+  &small-text-body {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+  }
+  &small-text-body.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 17px 0px 19px;
+  }
+  &image2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image2.layout {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 10px 36px 0px 38px;
+  }
+  &icon11 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon11.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 4px 0px 6px;
+  }
+  &small-text-body.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 8px 12px 0px 15px;
+  }
+  &image2.layout1 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 7px 36px 0px 38px;
+  }
+  &icon12 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon12.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 4px 0px 6px;
+  }
+  &small-text-body.layout2 {
+    position: relative;
+    height: min-content;
+    margin: 5px 0px 0px;
+  }
+  &image2.layout2 {
+    position: relative;
+    height: 22px;
+    width: 1px;
+    min-width: 1px;
+    margin: 7px 36px 0px 38px;
+  }
+  &icon13 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon13.layout {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px 4px 0px 6px;
+  }
+  &small-text-body.layout3 {
+    position: relative;
+    height: min-content;
+    margin: 5px 4px 0px 7px;
+  }
+  &flex3-spacer {
+    flex: 0 1 58px;
+  }
+  &flex3-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 1253px;
+  }
+  &flex5 {
+    @include flex-column;
+  }
+  &flex5.layout {
+    position: relative;
+    height: min-content;
+    margin: 6px 0px 0px;
+  }
+  &content-box {
+    display: flex;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid rgb(117, 251, 175);
+    border-radius: 32px 32px 32px 32px;
+  }
+  &content-box.layout {
+    position: relative;
+    height: min-content;
+  }
+  &big-title {
+    @include font-face($font_type3, rgb(255, 255, 255), 0px);
+  }
+  &big-title.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 24px 0px 23px 90px;
+  }
+  &content-box-spacer {
+    flex: 0 1 49px;
+  }
+  &content-box-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &image1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image1.layout {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 16px 0px 24px;
+  }
+  &content-box-spacer1 {
+    flex: 0 1 33px;
+  }
+  &medium-title {
+    @include font-face($font_type4, rgb(255, 255, 255), 0px);
+  }
+  &medium-title.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 30px 0px 24px;
+  }
+  &content-box-spacer2 {
+    flex: 0 1 418px;
+  }
+  &content-box-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &image.layout {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 19px 42px 21px 0px;
+  }
+  &content-box.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 17px 0px 0px;
+  }
+  &content-box-spacer3 {
+    flex: 0 1 17px;
+  }
+  &image1.layout1 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 18px 0px 22px;
+  }
+  &content-box-spacer4 {
+    flex: 0 1 33px;
+  }
+  &medium-title.layout1 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 27px 0px;
+  }
+  &content-box-spacer5 {
+    flex: 0 1 388px;
+  }
+  &content-box-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout1 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &cover-block {
+    @include flex-column;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid rgb(117, 251, 175);
+    border-radius: 32px 32px 32px 32px;
+  }
+  &cover-block.layout {
+    position: relative;
+    height: min-content;
+    margin: 17px 0px 0px;
+  }
+  &flex6 {
+    display: flex;
+  }
+  &flex6.layout {
+    position: relative;
+    height: min-content;
+    width: 93.3%;
+    margin: 17px auto;
+  }
+  &flex6-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 416px;
+  }
+  &image1.layout2 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 0px 0px 6px 415px;
+  }
+  &flex6-spacer {
+    flex: 0 1 33px;
+  }
+  &medium-title.layout2 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 9px 0px 11px;
+  }
+  &flex6-spacer1 {
+    flex: 0 1 389px;
+  }
+  &flex6-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 128px;
+  }
+  &image.layout2 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 3px 0px;
+  }
+  &content-box.layout2 {
+    position: relative;
+    height: min-content;
+    margin: 17px 0px 0px;
+  }
+  &content-box-spacer6 {
+    flex: 0 1 99px;
+  }
+  &image1.layout3 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 14px 0px 26px;
+  }
+  &content-box-spacer7 {
+    flex: 0 1 33px;
+  }
+  &medium-title.layout3 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 27px 0px;
+  }
+  &content-box-spacer8 {
+    flex: 0 1 398px;
+  }
+  &content-box-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout3 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box.layout3 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box-spacer9 {
+    flex: 0 1 117px;
+  }
+  &image1.layout4 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 14px 0px 26px;
+  }
+  &content-box-spacer10 {
+    flex: 0 1 33px;
+  }
+  &medium-title.layout4 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 26px 0px 28px;
+  }
+  &content-box-spacer11 {
+    flex: 0 1 399px;
+  }
+  &content-box-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout4 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box.layout4 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box-spacer12 {
+    flex: 0 1 202px;
+  }
+  &image1.layout5 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 17px 0px 23px;
+  }
+  &content-box-spacer13 {
+    flex: 0 1 33px;
+  }
+  &medium-title.layout5 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 26px 0px 28px;
+  }
+  &content-box-spacer14 {
+    flex: 0 1 391px;
+  }
+  &content-box-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout5 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box.layout5 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box-spacer15 {
+    flex: 0 1 60px;
+  }
+  &image1.layout6 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 19px 0px 21px;
+  }
+  &content-box-spacer16 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout6 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 31px 0px 23px;
+  }
+  &content-box-spacer17 {
+    flex: 0 1 415px;
+  }
+  &content-box-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &content-box.layout6 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &image1.layout7 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 11px 0px 29px;
+  }
+  &content-box-spacer18 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout7 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 28px 0px 26px;
+  }
+  &content-box-spacer19 {
+    flex: 0 1 385px;
+  }
+  &content-box-item7 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout6 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box.layout7 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box-spacer20 {
+    flex: 0 1 80px;
+  }
+  &image1.layout8 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 10px 0px 30px;
+  }
+  &content-box-spacer21 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout8 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 27px 0px;
+  }
+  &content-box-spacer22 {
+    flex: 0 1 386px;
+  }
+  &content-box-item8 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout7 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box.layout8 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box-spacer23 {
+    flex: 0 1 30px;
+  }
+  &image1.layout9 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 7px 0px 33px;
+  }
+  &content-box-spacer24 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout9 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 28px 0px 26px;
+  }
+  &content-box-spacer25 {
+    flex: 0 1 395px;
+  }
+  &content-box-item9 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout8 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box3 {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(117, 251, 175);
+    border-radius: 32px 32px 32px 32px;
+  }
+  &content-box3.layout {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 0px 9.72%;
+  }
+  &content-box3-spacer {
+    flex: 0 1 53px;
+  }
+  &content-box3-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 1px;
+  }
+  &image1.layout10 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 7px 0px 33px;
+  }
+  &content-box3-spacer1 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout10 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 27px 0px;
+  }
+  &content-box3-spacer2 {
+    flex: 0 1 276px;
+  }
+  &content-box3-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout9 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+  &content-box3.layout1 {
+    position: relative;
+    height: min-content;
+    width: 83.98%;
+    margin: 17px 6.3% 166px 9.72%;
+  }
+  &content-box3-spacer3 {
+    flex: 0 1 6px;
+  }
+  &image1.layout11 {
+    position: relative;
+    height: 43px;
+    width: 1px;
+    min-width: 1px;
+    margin: 10px 0px 30px;
+  }
+  &content-box3-spacer4 {
+    flex: 0 1 36px;
+  }
+  &medium-title.layout11 {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+    margin: 27px 0px;
+  }
+  &content-box3-spacer5 {
+    flex: 0 1 268px;
+  }
+  &content-box3-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 170px;
+  }
+  &image.layout10 {
+    position: relative;
+    height: 43px;
+    width: 128px;
+    min-width: 128px;
+    margin: 20px 42px 20px 0px;
+  }
+}

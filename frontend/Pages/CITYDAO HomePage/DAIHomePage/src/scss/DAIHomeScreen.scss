@@ -1,0 +1,349 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 72px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 24px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+
+.d-ai-home-screen- {
+  &block {
+    @include flex-column;
+    background-color: rgb(0, 0, 0);
+  }
+  &block.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1700px;
+    flex-shrink: 0;
+  }
+  &flex {
+    @include flex-column;
+  }
+  &flex.layout {
+    position: relative;
+    height: min-content;
+    width: 82.14%;
+    margin: 110px auto;
+    @include xl {
+      width: 85.98%;
+    }
+    @include lg {
+      width: 89.1%;
+      margin: 90px auto;
+    }
+    @include md {
+      width: 91.6%;
+      margin: 69px auto;
+    }
+    @include sm {
+      width: 93.56%;
+      margin: 51px auto;
+    }
+    @include xs {
+      width: 95.09%;
+      margin: 42px auto;
+    }
+    @include xxs {
+      width: 96.27%;
+      margin: 32px auto;
+    }
+    @include tn {
+      width: 97.18%;
+      margin: 26px auto;
+    }
+  }
+  &hero-title {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type0;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    letter-spacing: 0px;
+    @include lg {
+      font-size: 63px;
+      text-align: right;
+    }
+    @include md {
+      font-size: 53px;
+    }
+    @include sm {
+      font-size: 44px;
+    }
+    @include xs {
+      font-size: 40px;
+    }
+    @include xxs {
+      font-size: 36px;
+    }
+    @include tn {
+      font-size: 33px;
+    }
+  }
+  &hero-title.layout {
+    position: relative;
+    height: min-content;
+    width: 47.02%;
+    margin: 0px auto;
+    @include sm {
+      width: 54.21%;
+    }
+    @include xs {
+      width: 61.23%;
+    }
+    @include xxs {
+      width: 67.79%;
+    }
+    @include tn {
+      width: 73.73%;
+    }
+  }
+  &flex1 {
+    display: flex;
+  }
+  &flex1.layout {
+    position: relative;
+    height: min-content;
+    width: 92.75%;
+    margin: 104px auto 0px;
+    @include lg {
+      width: 94.46%;
+      margin: 86px auto 0px;
+    }
+    @include md {
+      width: 95.79%;
+      margin: 66px auto 0px;
+    }
+    @include sm {
+      width: 96.81%;
+      margin: 49px auto 0px;
+    }
+    @include xs {
+      width: 97.59%;
+      margin: 41px auto 0px;
+    }
+    @include xxs {
+      width: 98.18%;
+      margin: 32px auto 0px;
+    }
+    @include tn {
+      width: 98.63%;
+      margin: 26px auto 0px;
+    }
+  }
+  &flex1-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 122px;
+  }
+  &icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon.layout {
+    position: relative;
+    height: 125px;
+    width: 122px;
+    min-width: 122px;
+  }
+  &flex1-spacer {
+    flex: 0 1 121px;
+  }
+  &flex1-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 117px;
+  }
+  &icon1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &icon1.layout {
+    position: relative;
+    height: 113px;
+    width: 117px;
+    min-width: 117px;
+    margin: 12px 0px 0px;
+    @include lg {
+      margin: 11px 0px 0px;
+    }
+    @include md {
+      margin: 9px 0px 0px;
+    }
+    @include sm {
+      margin: 8px 0px 0px;
+    }
+    @include xs {
+      margin: 7px 0px 0px;
+    }
+    @include xxs {
+      margin: 6px 0px 0px;
+    }
+  }
+  &flex1-spacer1 {
+    flex: 0 1 156px;
+  }
+  &flex1-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 111px;
+  }
+  &icon2 {
+    background: var(--src) center center / contain no-repeat;
+    border-radius: 39px 39px 39px 39px;
+  }
+  &icon2.layout {
+    position: relative;
+    height: 113px;
+    width: 111px;
+    min-width: 111px;
+    margin: 12px 0px 0px;
+    @include lg {
+      margin: 11px 0px 0px;
+    }
+    @include md {
+      margin: 9px 0px 0px;
+    }
+    @include sm {
+      margin: 8px 0px 0px;
+    }
+    @include xs {
+      margin: 7px 0px 0px;
+    }
+    @include xxs {
+      margin: 6px 0px 0px;
+    }
+  }
+  &flex2 {
+    display: flex;
+  }
+  &flex2.layout {
+    position: relative;
+    height: min-content;
+    width: 90.02%;
+    margin: 19px auto 0px;
+    @include lg {
+      width: 92.32%;
+      margin: 17px auto 0px;
+    }
+    @include md {
+      width: 94.13%;
+      margin: 14px auto 0px;
+    }
+    @include sm {
+      width: 95.53%;
+      margin: 12px auto 0px;
+    }
+    @include xs {
+      width: 96.61%;
+      margin: 11px auto 0px;
+    }
+    @include xxs {
+      width: 97.44%;
+      margin: 10px auto 0px;
+    }
+    @include tn {
+      width: 98.06%;
+      margin: 9px auto 0px;
+    }
+  }
+  &medium-title1 {
+    @include font-face($font_type1, rgb(255, 255, 255), 0px);
+    @include lg {
+      font-size: 22px;
+      text-align: left;
+    }
+    @include md {
+      font-size: 20px;
+    }
+    @include sm {
+      font-size: 19px;
+    }
+    @include xs {
+      font-size: 18px;
+    }
+    @include xxs {
+      font-size: 17px;
+    }
+    @include tn {
+      font-size: 16px;
+    }
+  }
+  &medium-title1.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &flex2-spacer {
+    flex: 0 1 108px;
+  }
+  &medium-title2 {
+    @include font-face($font_type2, rgb(255, 255, 255), 0px);
+    @include lg {
+      font-size: 22px;
+      text-align: left;
+    }
+    @include md {
+      font-size: 20px;
+    }
+    @include sm {
+      font-size: 19px;
+    }
+    @include xs {
+      font-size: 18px;
+    }
+    @include xxs {
+      font-size: 17px;
+    }
+    @include tn {
+      font-size: 16px;
+    }
+  }
+  &medium-title2.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &medium-title {
+    @include font-face($font_type2, rgb(0, 0, 0), 0px);
+    @include lg {
+      font-size: 22px;
+      text-align: left;
+    }
+    @include md {
+      font-size: 20px;
+    }
+    @include sm {
+      font-size: 19px;
+    }
+    @include xs {
+      font-size: 18px;
+    }
+    @include xxs {
+      font-size: 17px;
+    }
+    @include tn {
+      font-size: 16px;
+    }
+  }
+  &medium-title.layout {
+    position: relative;
+    height: min-content;
+    margin: 9px 0px 1078px;
+    @include lg {
+      margin: 8px 0px 820px;
+    }
+    @include md {
+      margin: 7px 0px 540px;
+    }
+    @include sm {
+      margin: 6px 0px 301px;
+    }
+    @include xs {
+      margin: 5px 0px 181px;
+    }
+    @include xxs {
+      margin: 5px 0px 61px;
+    }
+    @include tn {
+      margin: 5px 0px;
+    }
+  }
+}

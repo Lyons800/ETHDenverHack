@@ -1,0 +1,842 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.dai-bounties-screen-block {
+  display: flex;
+  flex-direction: column;
+  background-color: black; }
+
+.dai-bounties-screen-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1700px;
+  flex-shrink: 0; }
+
+.dai-bounties-screen-flex {
+  display: flex;
+  flex-direction: column; }
+
+.dai-bounties-screen-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 57px 10px; }
+
+.dai-bounties-screen-flex1 {
+  display: flex; }
+
+.dai-bounties-screen-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.dai-bounties-screen-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 101px; }
+
+.dai-bounties-screen-icon {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-icon.layout {
+  position: relative;
+  height: 100px;
+  width: 101px;
+  min-width: 101px; }
+
+.dai-bounties-screen-flex1-spacer {
+  flex: 0 1 53px; }
+
+.dai-bounties-screen-hero-title1 {
+  font: 700 70px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 0px; }
+
+.dai-bounties-screen-hero-title1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 8px 0px; }
+
+.dai-bounties-screen-flex2 {
+  display: flex; }
+
+.dai-bounties-screen-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 93.3%;
+  margin: 8px auto 0px; }
+
+.dai-bounties-screen-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 1px; }
+
+.dai-bounties-screen-image3 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-image3.layout {
+  position: relative;
+  height: 40px;
+  width: 1px;
+  min-width: 1px;
+  margin: 13px 0px 0px; }
+
+.dai-bounties-screen-flex2-spacer {
+  flex: 0 1 103px; }
+
+.dai-bounties-screen-hero-title {
+  font: 36px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.dai-bounties-screen-hero-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 9px; }
+
+.dai-bounties-screen-icon1 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.dai-bounties-screen-flex3 {
+  display: flex; }
+
+.dai-bounties-screen-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 12px 0px; }
+
+.dai-bounties-screen-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 75px; }
+
+.dai-bounties-screen-flex4 {
+  display: flex;
+  flex-direction: column; }
+
+.dai-bounties-screen-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 26px; }
+
+.dai-bounties-screen-small-text-body {
+  font: 700 12px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.dai-bounties-screen-small-text-body.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 17px 0px 19px; }
+
+.dai-bounties-screen-image2 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-image2.layout {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 10px 36px 0px 38px; }
+
+.dai-bounties-screen-icon11 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-icon11.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 4px 0px 6px; }
+
+.dai-bounties-screen-small-text-body.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 8px 12px 0px 15px; }
+
+.dai-bounties-screen-image2.layout1 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 7px 36px 0px 38px; }
+
+.dai-bounties-screen-icon12 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-icon12.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 4px 0px 6px; }
+
+.dai-bounties-screen-small-text-body.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 0px 0px; }
+
+.dai-bounties-screen-image2.layout2 {
+  position: relative;
+  height: 22px;
+  width: 1px;
+  min-width: 1px;
+  margin: 7px 36px 0px 38px; }
+
+.dai-bounties-screen-icon13 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-icon13.layout {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  margin: 0px 4px 0px 6px; }
+
+.dai-bounties-screen-small-text-body.layout3 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px 4px 0px 7px; }
+
+.dai-bounties-screen-flex3-spacer {
+  flex: 0 1 58px; }
+
+.dai-bounties-screen-flex3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 1253px; }
+
+.dai-bounties-screen-flex5 {
+  display: flex;
+  flex-direction: column; }
+
+.dai-bounties-screen-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 6px 0px 0px; }
+
+.dai-bounties-screen-content-box {
+  display: flex;
+  background-color: #494949;
+  border: 1px solid #75fbaf;
+  border-radius: 32px 32px 32px 32px; }
+
+.dai-bounties-screen-content-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.dai-bounties-screen-big-title {
+  font: 30px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.dai-bounties-screen-big-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 90px; }
+
+.dai-bounties-screen-content-box-spacer {
+  flex: 0 1 49px; }
+
+.dai-bounties-screen-content-box-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 1px; }
+
+.dai-bounties-screen-image1 {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-image1.layout {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 16px 0px 24px; }
+
+.dai-bounties-screen-content-box-spacer1 {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title {
+  font: 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.dai-bounties-screen-medium-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 30px 0px 24px; }
+
+.dai-bounties-screen-content-box-spacer2 {
+  flex: 0 1 418px; }
+
+.dai-bounties-screen-content-box-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image {
+  background: var(--src) center center/contain no-repeat; }
+
+.dai-bounties-screen-image.layout {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 19px 42px 21px 0px; }
+
+.dai-bounties-screen-content-box.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 17px 0px 0px; }
+
+.dai-bounties-screen-content-box-spacer3 {
+  flex: 0 1 17px; }
+
+.dai-bounties-screen-image1.layout1 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 18px 0px 22px; }
+
+.dai-bounties-screen-content-box-spacer4 {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 0px; }
+
+.dai-bounties-screen-content-box-spacer5 {
+  flex: 0 1 388px; }
+
+.dai-bounties-screen-content-box-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout1 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-cover-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #494949;
+  border: 1px solid #75fbaf;
+  border-radius: 32px 32px 32px 32px; }
+
+.dai-bounties-screen-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 17px 0px 0px; }
+
+.dai-bounties-screen-flex6 {
+  display: flex; }
+
+.dai-bounties-screen-flex6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 93.3%;
+  margin: 17px auto; }
+
+.dai-bounties-screen-flex6-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 416px; }
+
+.dai-bounties-screen-image1.layout2 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 0px 0px 6px 415px; }
+
+.dai-bounties-screen-flex6-spacer {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 9px 0px 11px; }
+
+.dai-bounties-screen-flex6-spacer1 {
+  flex: 0 1 389px; }
+
+.dai-bounties-screen-flex6-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 128px; }
+
+.dai-bounties-screen-image.layout2 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 3px 0px; }
+
+.dai-bounties-screen-content-box.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 17px 0px 0px; }
+
+.dai-bounties-screen-content-box-spacer6 {
+  flex: 0 1 99px; }
+
+.dai-bounties-screen-image1.layout3 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 14px 0px 26px; }
+
+.dai-bounties-screen-content-box-spacer7 {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title.layout3 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 0px; }
+
+.dai-bounties-screen-content-box-spacer8 {
+  flex: 0 1 398px; }
+
+.dai-bounties-screen-content-box-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout3 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box.layout3 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box-spacer9 {
+  flex: 0 1 117px; }
+
+.dai-bounties-screen-image1.layout4 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 14px 0px 26px; }
+
+.dai-bounties-screen-content-box-spacer10 {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title.layout4 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 26px 0px 28px; }
+
+.dai-bounties-screen-content-box-spacer11 {
+  flex: 0 1 399px; }
+
+.dai-bounties-screen-content-box-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout4 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box.layout4 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box-spacer12 {
+  flex: 0 1 202px; }
+
+.dai-bounties-screen-image1.layout5 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 17px 0px 23px; }
+
+.dai-bounties-screen-content-box-spacer13 {
+  flex: 0 1 33px; }
+
+.dai-bounties-screen-medium-title.layout5 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 26px 0px 28px; }
+
+.dai-bounties-screen-content-box-spacer14 {
+  flex: 0 1 391px; }
+
+.dai-bounties-screen-content-box-item5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout5 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box.layout5 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box-spacer15 {
+  flex: 0 1 60px; }
+
+.dai-bounties-screen-image1.layout6 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 19px 0px 21px; }
+
+.dai-bounties-screen-content-box-spacer16 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout6 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 31px 0px 23px; }
+
+.dai-bounties-screen-content-box-spacer17 {
+  flex: 0 1 415px; }
+
+.dai-bounties-screen-content-box-item6 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-content-box.layout6 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-image1.layout7 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 11px 0px 29px; }
+
+.dai-bounties-screen-content-box-spacer18 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout7 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 28px 0px 26px; }
+
+.dai-bounties-screen-content-box-spacer19 {
+  flex: 0 1 385px; }
+
+.dai-bounties-screen-content-box-item7 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout6 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box.layout7 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box-spacer20 {
+  flex: 0 1 80px; }
+
+.dai-bounties-screen-image1.layout8 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 10px 0px 30px; }
+
+.dai-bounties-screen-content-box-spacer21 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout8 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 0px; }
+
+.dai-bounties-screen-content-box-spacer22 {
+  flex: 0 1 386px; }
+
+.dai-bounties-screen-content-box-item8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout7 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box.layout8 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box-spacer23 {
+  flex: 0 1 30px; }
+
+.dai-bounties-screen-image1.layout9 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 7px 0px 33px; }
+
+.dai-bounties-screen-content-box-spacer24 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout9 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 28px 0px 26px; }
+
+.dai-bounties-screen-content-box-spacer25 {
+  flex: 0 1 395px; }
+
+.dai-bounties-screen-content-box-item9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout8 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box3 {
+  display: flex;
+  background-color: #202020;
+  border: 1px solid #75fbaf;
+  border-radius: 32px 32px 32px 32px; }
+
+.dai-bounties-screen-content-box3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 0px 9.72%; }
+
+.dai-bounties-screen-content-box3-spacer {
+  flex: 0 1 53px; }
+
+.dai-bounties-screen-content-box3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 1px; }
+
+.dai-bounties-screen-image1.layout10 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 7px 0px 33px; }
+
+.dai-bounties-screen-content-box3-spacer1 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout10 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 0px; }
+
+.dai-bounties-screen-content-box3-spacer2 {
+  flex: 0 1 276px; }
+
+.dai-bounties-screen-content-box3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout9 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
+
+.dai-bounties-screen-content-box3.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 83.98%;
+  margin: 17px 6.3% 166px 9.72%; }
+
+.dai-bounties-screen-content-box3-spacer3 {
+  flex: 0 1 6px; }
+
+.dai-bounties-screen-image1.layout11 {
+  position: relative;
+  height: 43px;
+  width: 1px;
+  min-width: 1px;
+  margin: 10px 0px 30px; }
+
+.dai-bounties-screen-content-box3-spacer4 {
+  flex: 0 1 36px; }
+
+.dai-bounties-screen-medium-title.layout11 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 27px 0px; }
+
+.dai-bounties-screen-content-box3-spacer5 {
+  flex: 0 1 268px; }
+
+.dai-bounties-screen-content-box3-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 170px; }
+
+.dai-bounties-screen-image.layout10 {
+  position: relative;
+  height: 43px;
+  width: 128px;
+  min-width: 128px;
+  margin: 20px 42px 20px 0px; }
