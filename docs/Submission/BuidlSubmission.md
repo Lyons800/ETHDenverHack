@@ -13,4 +13,4 @@ Skip money and match directly
 
 Oisin Lyons: Project manager and communications
 Bruno Zell: Semantic engineer and developer
-Casey: User interface and visuals
+
